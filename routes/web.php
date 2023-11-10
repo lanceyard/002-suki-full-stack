@@ -25,7 +25,19 @@ use Illuminate\Support\Facades\Route;
 /* Route::get('/', [UserController::class, 'show']); */
 
 Route::get('/', function () {
-  return view('ecommerce/index');
+  return view('customerSide/index');
+});
+
+Route::get('/produk', function () {
+  return view('customerSide/produk');
+});
+
+Route::get('/tentang', function () {
+  return view('customerSide/about');
+});
+
+Route::get('/kontak', function () {
+  return view('customerSide/contact');
 });
 
 # ========================== AUTH =========================
