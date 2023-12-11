@@ -47,8 +47,64 @@
             </div>
         </div>
     </header>
+    {{-- header end --}}
     
     @yield('content')
+    
+    {{-- footer start --}}
+    <footer class="bg-primary">
+        <div class="container p-10">
+            <div class="flex flex-wrap justify-between mb-10">
+                <ul>
+                    <li><a href="/" class="font-bold text-slate-900 text-2xl block mb-4">sumberejeki</a></li>
+                    <li class="font-bold text-lg my-2">Contact</li>
+                    <li class="text-slate-800"><span class="font-bold">Address:</span> 19 Kartini St</li>
+                    <li class="text-slate-800"><span class="font-bold">Phone:</span> +123456789</li>
+                    <li class="text-slate-800"><span class="font-bold">Hours:</span> 24 Hours</li>
+                    <li class="font-bold text-lg my-2">Follow Us</li>
+                    <li>
+                        <div class="flex">
+                            <a href="#"><i class="fab fa-facebook-f pe-2 hover:text-active"></i></a>
+                            <a href="#"><i class="fab fa-twitter pe-2 hover:text-active"></i></a>
+                            <a href="#"><i class="fab fa-instagram pe-2 hover:text-active"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p pe-2 hover:text-active"></i></a>
+                            <a href="#"><i class="fab fa-youtube pe-2 hover:text-active"></i></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="font-bold text-lg mt-4 mb-2">About</li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">About Us</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Delivery Information</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Privacy Policy</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Terms & Condition</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li class="font-bold text-lg mt-4 mb-2">My Account</li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Sign In</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">View Cart</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">My Wishlist</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Track My Order</a></li>
+                    <li><a href="#" class="font-extralight text-slate-900 hover:text-active">Help</a></li>
+                </ul>
+                <ul>
+                    <li class="font-bold text-lg mt-4 mb-2">Install App</li>
+                    <li><a href="#" class="font-extralight text-slate-800">From App Store or Google Play</a></li>
+                    <li>
+                        <div class="flex flex-wrap my-2">
+                            <img src="{{asset('images/footer/app.jpg')}}" class="my-1 lg:me-2 cursor-pointer" alt="">
+                            <img src="{{asset('images/footer/play.jpg')}}" class="my-1 cursor-pointer" alt="">
+                        </div>
+                    </li>
+                    <li><a href="#" class="font-extralight text-slate-800">Secure Payment Gateway</a></li>
+                    <li><img src="{{asset('images/footer/pay.png')}}" class="my-2" alt=""></li>
+                </ul>
+            </div>
+            <p class="text-center font-thin text-slate-500">© 2023, daffafifi - Sumber Rejeki Ecommerce</p>
+        </div>
+    </footer>
+    {{-- footer end --}}
 
     <script src="{{ asset('js/index.js') }}"></script>
 

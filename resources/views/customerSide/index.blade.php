@@ -58,7 +58,7 @@
 {{-- product start --}}
 <section id="product" class="my-10 lg:my-20">
     <div class="container text-center">
-        <h1 class="text-3xl font-bold text-slate-800 mb-4 lg:text-5xl">Featured Products</h1>
+        <h1 class="text-3xl font-bold text-slate-800 mb-4 lg:text-5xl">Top Products</h1>
         <p class="text-base text-slate-800 font-light mb-10 lg:font-normal">Summer Collection New Moderns Design</p>
         <div class="flex flex-wrap justify-center mx-20 lg:mx-10 lg:justify-start">
             <div class="w-full text-start border-solid border-[1px] border-active border-opacity-50 p-4 rounded-xl relative my-4 shadow-lg lg:w-[22%] lg:mx-4 cursor-pointer">
